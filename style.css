@@ -314,6 +314,14 @@ footer{
         width: 95%;
         height: 300px;
     }
+    .rodape p{
+        font-size: 15px;
+    }
+    .rodape img{
+        width: 100px;
+        height: 100px;
+        margin-left: 2%;
+    }
 }
 @media screen and (max-width: 420px){
     .cabecalho{
@@ -413,5 +421,13 @@ footer{
         }
         a p{
             font-size: 12px;
+        }
+        .rodape p{
+            font-size: 12px;
+        }
+        .rodape img{
+            width: 70px;
+            height: 70px;
+            margin-left: 0;
         }
 }
